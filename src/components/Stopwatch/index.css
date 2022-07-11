@@ -1,0 +1,99 @@
+/* Write CSS here */
+.app-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .app-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px;
+  }
+}
+.stop-watch-heading {
+  color: #333333;
+  font-size: 48px;
+  font-family: 'Roboto';
+  font-size: bold;
+}
+@media screen and (min-width: 768px) {
+  .stop-watch-heading {
+    font-size: 64px;
+  }
+}
+.stop-watch-card-container {
+  background-color: #ffffff;
+  border-radius: 12px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 420px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+@media screen and (min-width: 768px) {
+  .stop-watch-card-container {
+    margin-left: 69px;
+  }
+}
+.timer-img-text-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.timer-text {
+  color: #333333;
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-left: 15px;
+}
+.button-container {
+  display: flex;
+  flex-direction: row;
+}
+.button {
+  border-radius: 6px;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .button {
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+.start-button {
+  background-color: #1db05f;
+  margin-right: 20px;
+}
+.stop-button {
+  background-color: #ef0d36;
+  margin-right: 20px;
+}
+.reset-button {
+  background-color: #eaa800;
+}
